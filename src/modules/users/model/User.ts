@@ -5,8 +5,8 @@ class User {
   name: string;
   admin: boolean;
   email: string;
-  created_at: Date;
-  updated_at: Date;
+  created_at: Date | undefined;
+  updated_at: Date | undefined;
 
   constructor() {
     if (!this.id) {
